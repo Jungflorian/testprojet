@@ -14,10 +14,13 @@
 }
 
 body {
+    gap: 35px;
     display: flex;
     width:auto;
     background-color: white;
     margin: 0;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .main-container {
@@ -126,29 +129,6 @@ a {
 h3,p{
     margin: 2px;
 }
-.fa-solid {
-    margin-top: 10px;
-}
-.fa-solid{
-    padding-right: 10px;
-}
-button {
-    color: white;
-    border-color: blue;
-    background-color: blue;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
-    padding-left: 10px;
-    margin: 5px;
-}
-.Filtres {
-    display: flex;
-    gap: 10px;
-}
-.eco,.famille,.Romantique,.pépites{
-display: flex;
-padding: 1px;
-}
 header{
     display:flex;
     justify-content: space-between;
@@ -191,6 +171,65 @@ img{
     padding-top: 30px;
     gap: 10px;
 }
+.search-bar {
+    display: flex;
+    align-items: center;
+    border: 1px solid #e0e0e0;
+    border-radius: 25px;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    width:377px;
+    height:49px;
+    gap:24px;
+  }
+  
+  .search-icon {
+    background-color: #f3f3f3;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 49px;
+  }
+  
+  .search-icon i {
+    font-size: 18px;
+  }
+  
+  .search-input {
+    flex: 1;
+    border: none;
+    font-size: 16px;
+    outline: none;
+    color: #000000;
+    width: 147px;
+    height: 21px;
+  }
+  
+  .search-input::placeholder {
+    color: #000000;
+  }
+  
+  .search-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    width: 132px;
+    height: 49px;
+    
+  }
+  
+  .search-button:hover {
+    background-color: #0056b3;
+  }
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
 /****** Media queries ***********/
