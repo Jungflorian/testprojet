@@ -11,6 +11,8 @@
 
 .fa-solid {
     color: var(--main-color);
+    width: 22px ;
+    height: 22px;
 }
 
 body {
@@ -175,20 +177,21 @@ img{
     display: flex;
     align-items: center;
     border: 1px solid #e0e0e0;
-    border-radius: 25px;
+    border-radius: 15px;
     overflow: hidden;
     background-color: #fff;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
     width:377px;
     height:49px;
     gap:24px;
+    margin-top: 25px;
   }
   
   .search-icon {
     background-color: #f3f3f3;
     padding: 10px;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
     width: 50px;
     height: 49px;
@@ -201,11 +204,12 @@ img{
   .search-input {
     flex: 1;
     border: none;
-    font-size: 16px;
+    font-size: 18px;
     outline: none;
     color: #000000;
     width: 147px;
     height: 21px;
+    font-weight:bold;
   }
   
   .search-input::placeholder {
@@ -224,12 +228,88 @@ img{
     border-bottom-right-radius: 15px;
     width: 132px;
     height: 49px;
-    
   }
   
   .search-button:hover {
     background-color: #0056b3;
   }
+  .Filtres4{
+    width: 758px;
+    height: 50px;
+    gap: 15px;
+    display: flex;
+    justify-items: start;
+    align-items: center;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    font-weight: bold;
+  }
+  .Economique{
+    width: 173px;
+    height: 50px;
+    border: solid 2px #d9d9d9;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    gap: 10px ;
+  }
+  .Economique:hover{
+    background-color: #DEEBFF;
+  }
+  .Familial{
+    width: 173px;
+    height: 50px;
+    border: solid 2px #d9d9d9;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    gap: 10px ;
+  }
+  .Familial:hover{
+    background-color: #DEEBFF;
+  }
+  .Romantique{
+    width: 173px;
+    height: 50px;
+    border: solid 2px #d9d9d9;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    gap: 10px ;
+  }
+  .Romantique:hover{
+    background-color: #DEEBFF;
+  }
+  .Nos-pépites{
+    width: 173px;
+    height: 50px;
+    border: solid 2px #d9d9d9;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    gap: 10px ;
+  }
+  .Nos-pépites:hover{
+    background-color: #DEEBFF;
+  }
+  .Info{
+   width: 1340px;
+   height: 24px;
+   gap: 10px;
+   display: flex;
+   text-align: start;
+   justify-content: start;
+
+  }
+
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
 /****** Media queries ***********/
